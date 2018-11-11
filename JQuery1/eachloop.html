@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+.myclass{
+   background-color:yellow;
+   
+   color:red;
+
+}
+
+</style>
+
+<script src="D:\HTML lab\JQuery1\jquery-3.3.1.js"></script>
+<script>
+
+$(document).ready(function(){
+   $('p').each(function(index){
+   
+		alert(index+"--->"+$(this).text());
+		
+		});
+	});
+
+</script>
+</head>
+<body>
+<p class="myclass">Happy Dasshera 1 </p>
+<p>Happy Dasshera 2 </p>
+<p class="myclass">Happy Dasshera 3 </p>
+</body>
+
+</html>
+
+ 
